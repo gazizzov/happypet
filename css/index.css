@@ -1,0 +1,123 @@
+body {
+  background: url("https://i.postimg.cc/xC92TGPc/bg-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 1920px;
+  height: 1080px; */
+}
+
+nav {
+  margin: 35px 376px;
+  display: inline-flex;
+  align-items: center;
+  gap: 102px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav {
+  display: flex;
+  align-items: flex-start;
+  gap: 29px;
+}
+
+a {
+  color: #232323;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.choice {
+  font-weight: 600;
+}
+
+.left-bar {
+  display: inline-flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.phone {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #232323;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.lk {
+  border-radius: 10px;
+  border: 1px solid #232323;
+  padding: 18px 24px;
+  display: inline-flex;
+  transition: color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.lk:hover {
+  background-color: #232323;
+  color: #fff;
+  transition: color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+main {
+  margin: 150px 376px;
+  display: flex;
+  gap: 40px
+}
+
+.adnar {
+  gap: 20px;
+}
+
+main h1 {
+  color: #232323;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+main p {
+  margin-top: 20px;
+  color: #232323;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.friends {
+  margin-top: 20px;
+  border-radius: 20px;
+  background: linear-gradient(97deg, #FF4343 15.36%, #FF2E2E 74.01%);
+  color: #fff;
+  display: inline-flex;
+  padding: 30px 50px;
+  justify-content: center;
+  align-items: center;
+  transition: box-shadow 0.4s ease;
+  transition: transform 0.1s ease;
+}
+
+.friends:hover {
+  box-shadow: 0px 4px 10px 0px #FF5454;
+  transition: box-shadow 0.3s ease;
+}
+
+.friends:active {
+  transform: translateY(2px);
+  transition: transform 0.2s ease;
+}
+
+.main {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+}
